@@ -25,5 +25,8 @@ api for schedule a message.
 url:  http://127.0.0.1:5000/schedule-message    
 method: POST     
 body {"message": "text message", "delivery_time":  "2019-01-15T06:15:55.765Z"}   
-delivery time should be in iso format and should be a future time.    
+delivery time should be in iso format and should be a future time.   
+Javascript to create ISO date string    
+var d = new Date()    
+d.toISOString()    
 header: not configured, but can be configured to give authorization token
