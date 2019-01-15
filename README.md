@@ -1,6 +1,6 @@
 # Message scheduler
 
-This project is developd using python and flask
+This project is developd using python and flask  
 Github repository 
 https://github.com/sreenathp20/techjini-delivery-message.git
 
